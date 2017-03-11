@@ -4,8 +4,8 @@
     pager=less -x4
 
 [user]
-	name = Thomas Ortiz
-	email = tdortiz@ncsu.edu
+    name = Thomas Ortiz
+    email = tdortiz@ncsu.edu
 
 [include]
     path = ~/.git-sendemail
