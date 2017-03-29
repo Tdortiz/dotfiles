@@ -7,9 +7,6 @@
     name = Thomas Ortiz
     email = tdortiz@ncsu.edu
 
-[include]
-    path = ~/.git-sendemail
-
 [color]
     branch = auto
     diff = auto
