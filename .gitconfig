@@ -65,6 +65,9 @@
     # grep on filename
     f = "!git ls-files | grep -i"
     
+    # pull
+    git pullrb = pull --rebase
+    
     # commit 
     cm = commit -m
     cma = commit -a -m
