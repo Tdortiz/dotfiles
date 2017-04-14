@@ -63,7 +63,7 @@
     f = "!git ls-files | grep -i"
     
     # pull
-    git pullrb = pull --rebase
+    pullrb = pull --rebase
     
     # commit 
     cm = commit -m
