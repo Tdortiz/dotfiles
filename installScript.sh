@@ -5,6 +5,17 @@ sudo apt-get install git
 mkdir Github
 cd Github
 
+# Clone github-tools
+git clone https://github.com/Tdortiz/Github-Tools
+sudo cp Github-Tools/createRepo.sh /bin
+sudo cp Github-Tools/deepCopyRepo.sh /bin
+sudo cp Github-Tools/show-repos.sh /bin
+
+# Allow them to be executable
+sudo chmod +x /bin/createRepo.sh
+sudo chmod +x /bin/deepCopyRepo.sh
+sudo chmod +x /bin/show-repos.sh
+
 # Clone dotfiles from Github
 git clone https://github.com/Tdortiz/dotfiles
 cd dotfiles
