@@ -1,4 +1,6 @@
 # Install git
+cd ~
+
 sudo apt-get install git
 mkdir Github
 cd Github
