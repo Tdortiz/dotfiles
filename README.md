@@ -1,7 +1,13 @@
 # dotfiles
 
 ### Vim
-If you don’t feel confident enough to modify Vim dotfile, there’s a simpler way. SPF13 is a distribution of Vim that comes pre-built with the plugins and dotfile modifications you need to be a productive developer. Installing it on Linux, FreeBSD, and OS X is remarkably simple. Just open up a terminal and run:
+[Article I found vim distribution in](http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
+
+[spf13-Vim Github](https://github.com/spf13/spf13-vim)
+
+[spf13-Vim Website](http://vim.spf13.com/)
+
+SPF13 is a distribution of Vim that comes pre-built with the plugins and dotfile modifications you need to be a productive developer. Installing it on Linux, FreeBSD, and OS X is remarkably simple. Just open up a terminal and run:
 
 `curl http://j.mp/spf13-vim3 -L -o - | sh`
 
