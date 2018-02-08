@@ -4,7 +4,7 @@ cd $HOME
 
 $repos = @{
     github = 'C:\Users\thomas.ortiz\Documents\Github'
-    presentation = 'C:\code\Products\FENext\WebFront\DEV\FinancialEdge\Project\Presentation'
+    presentation = ''
 }
 
 function Prompt {
