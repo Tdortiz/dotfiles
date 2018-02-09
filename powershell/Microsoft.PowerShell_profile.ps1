@@ -14,8 +14,9 @@ function Prompt {
     Write-Host "[$Time] " -ForegroundColor Yellow -NoNewline
     Write-Host "$($pwd.path)" -ForeGroundColor Cyan
     #Write-Host "$Directory " -ForeGroundColor Cyan
+    return " "
 }
 
-Set-Alias ls Get-ChildItemColor -option AllScope -Force
+Set-Alias ls Get-ChildItemColorFormatWide -option AllScope -Force
 Set-Alias dir Get-ChildItemColor -option AllScope -Force
 
