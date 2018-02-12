@@ -11,6 +11,7 @@ function Prompt {
     $Time = Get-Date -Format "hh:mm tt"
     $Directory = (Get-Location).Path.Replace($HOME, "~")
 
+    Write-Host ""
     Write-Host "[$Time] " -ForegroundColor Yellow -NoNewline
     Write-Host "$($pwd.path)" -ForeGroundColor Cyan
     #Write-Host "$Directory " -ForeGroundColor Cyan
