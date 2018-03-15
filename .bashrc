@@ -122,7 +122,5 @@ if ! shopt -oq posix; then
 fi
 
 alias github="cd D:/Library/Documents/Github"
-alias senior="github; cd 2017FallTeam12/Herd.Web"
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
-alias ncsu='ssh -X tdortiz@remote.eos.ncsu.edu'
