@@ -124,3 +124,5 @@ fi
 alias github="cd D:/Library/Documents/Github"
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
+alias ng="npm list -g --depth=0 2>/dev/null"
+alias nl="npm list --depth=0 2>/dev/null"
