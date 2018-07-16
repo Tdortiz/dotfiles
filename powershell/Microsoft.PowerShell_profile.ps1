@@ -18,6 +18,15 @@ function Prompt {
     return " "
 }
 
-Set-Alias ls Get-ChildItemColorFormatWide -option AllScope -Force
-Set-Alias dir Get-ChildItemColor -option AllScope -Force
+function RunNpmListGlobal() {
+    npm list -g --depth=0
+}
 
+function RunNpmList() {
+    npm list --depth=0
+}
+
+Set-Alias watch RunPresentationWatch
+Set-Alias testWatch RunPresentationTestWatch 
+Set-Alias ng RunNpmListGlobal
+Set-Alias nl RunNpmList
