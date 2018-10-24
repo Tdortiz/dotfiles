@@ -2,9 +2,10 @@
 Import-Module Get-ChildItemColor
 cd $HOME
 
+# You can use "cd $repos.<name>" to quickly navigate
 $repos = @{
     github = 'C:\Users\thomas.ortiz\Documents\Github'
-    presentation = ''
+    presentation = 'D:\code\Products\FENext\WebFront\DEV\FinancialEdge\Project\Presentation'
 }
 
 function Prompt {
@@ -15,7 +16,29 @@ function Prompt {
     Write-Host "[$Time] " -ForegroundColor Yellow -NoNewline
     Write-Host "$($pwd.path)" -ForeGroundColor Cyan
     #Write-Host "$Directory " -ForeGroundColor Cyan
-    return " "
+    return ""
+}
+
+Set-Alias ls Get-ChildItemColorFormatWide -option AllScope -Force
+Set-Alias dir Get-ChildItemColor -option AllScope -Force
+# Chocolatey profile
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
+}
+
+function RunPresentationWatch {
+    Write-Host "cd" $repos.presentation -foregroundcolor "cyan"
+    cd $repos.presentation;
+    Write-Host "npm run watch" -foregroundcolor "cyan"
+    npm run watch;
+}
+
+function RunPresentationTestWatch {
+    Write-Host "cd" $repos.presentation -foregroundcolor "cyan"
+    cd $repos.presentation;
+    Write-Host "npm run test --watch" -foregroundcolor "cyan"
+    npm run test --watch
 }
 
 function RunNpmListGlobal() {
