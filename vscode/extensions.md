@@ -1,14 +1,69 @@
-https://github.com/viatsko/awesome-vscode#official
-
-* Dashboard
-* DotEnv
-* EditorConfig
-* ESLint
-* Git History
-* Git Lens
-* Git Project Manager
-* Paste JSON as Code
-* Prettify JSON
-* TODO Highlight
-* TSLint
-* vscode-icons
+code --install-extension aaron-bond.better-comments
+code --install-extension abusaidm.html-snippets
+code --install-extension adrianwilczynski.add-reference
+code --install-extension adrianwilczynski.namespace
+code --install-extension alexiv.vscode-angular2-files
+code --install-extension Angular.ng-template
+code --install-extension christian-kohler.path-intellisense
+code --install-extension codezombiech.gitignore
+code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension dzhavat.css-flexbox-cheatsheet
+code --install-extension eamodio.gitlens
+code --install-extension ecmel.vscode-html-css
+code --install-extension EditorConfig.EditorConfig
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension felipecaputo.git-project-manager
+code --install-extension formulahendry.dotnet
+code --install-extension formulahendry.dotnet-test-explorer
+code --install-extension Fudge.auto-using
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension Gruntfuggly.todo-tree
+code --install-extension hbenl.vscode-jasmine-test-adapter
+code --install-extension hbenl.vscode-test-explorer
+code --install-extension hediet.vscode-drawio
+code --install-extension hoovercj.vscode-dimmer
+code --install-extension humao.rest-client
+code --install-extension IBM.output-colorizer
+code --install-extension infinity1207.angular2-switcher
+code --install-extension jchannon.csharpextensions
+code --install-extension jmrog.vscode-nuget-package-manager
+code --install-extension johnpapa.Angular2
+code --install-extension johnpapa.vscode-peacock
+code --install-extension johnpapa.winteriscoming
+code --install-extension k--kato.docomment
+code --install-extension KishoreIthadi.dotnet-core-essentials
+code --install-extension kisstkondoros.vscode-codemetrics
+code --install-extension Leopotam.csharpfixformat
+code --install-extension logerfo.sln-support
+code --install-extension mhutchie.git-graph 
+code --install-extension mrmlnc.vscode-scss
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension ms-vsliveshare.vsliveshare-audio
+code --install-extension ms-vsliveshare.vsliveshare-pack
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension natewallace.angular2-inline
+code --install-extension oderwat.indent-rainbow
+code --install-extension patcx.vscode-nuget-gallery
+code --install-extension pflannery.vscode-versionlens
+code --install-extension PKief.material-icon-theme
+code --install-extension quicktype.quicktype
+code --install-extension raagh.angular-karma-test-explorer
+code --install-extension Shan.code-settings-sync
+code --install-extension shardulm94.trailing-spaces
+code --install-extension spences10.vba
+code --install-extension tintoy.msbuild-project-tools
+code --install-extension tomoki1207.pdf
+code --install-extension usernamehw.errorlens
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension waderyan.gitblame
+code --install-extension will-shaw.ws-rainmeter
+code --install-extension wix.vscode-import-cost
+code --install-extension xabikos.JasmineSnippets
+code --install-extension Zignd.html-css-class-completion
